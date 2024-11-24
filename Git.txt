@@ -4,4 +4,21 @@ git is a version controller تغییرات رو ترک میکنه در یک مو
 ===================Git commands=======
 git init =< make repository
 git add -> Add to stage
+git status => What files are at stage.
 git commid => Save changes to repository.
+
+git log => What happened in the repository
+=================
+
+git reset --hard <Name of the commit> => Go to that commit
+
+
+==========================Branchs================
+Branch => تمام فایل هارو میبره رو یه شاخه دیگه و کاملا ایزوله هست.
+مثلا وقتی میخوایم یه یسری فیچر اضافه کنیم یه برنچ اضافه میکنیم و تغییرات اونجا میدیم سپس اگر همه چی درست بود ادغام میکنیم با برنچ مستر.
+
+
+--Commands
+git branch new-branch => add a branch
+git branch -a => What are the available branchs.
+git checkout <name of the branch> => Change to the new branch.
