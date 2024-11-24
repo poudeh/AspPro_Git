@@ -8,6 +8,9 @@ git status => What files are at stage.
 git commid => Save changes to repository.
 
 git log => What happened in the repository
+git log --oneline
+git log --graph
+
 =================
 
 git reset --hard <Name of the commit> => Go to that commit
@@ -22,3 +25,26 @@ Branch => تمام فایل هارو میبره رو یه شاخه دیگه و �
 git branch new-branch => add a branch
 git branch -a => What are the available branchs.
 git checkout <name of the branch> => Change to the new branch.
+git merge <name of the branch that should be merged>
+
+git checkout -b => Create and switch to that branch.
+
+!important => When You are in a branch and create another branch the current branch copied to the new branch,
+
+Delete branch => git branch -d <NAme of the branch>
+
+
+
+
+
+========
+git config --global user.name "Mohammad"
+git push => ارسال فایل به گیت هاب
+===
+Remote-repositories => repositories that are online and remote.
+
+=====
+git remote add origin https://github.com/poudeh/AspPro_Git.git add remote git
+
+
+
