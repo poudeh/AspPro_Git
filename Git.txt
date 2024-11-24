@@ -1,0 +1,7 @@
+What is git:
+git is a version controller تغییرات رو ترک میکنه در یک موقع خاص چه تغییری روی سورس کد ما اعمال شده.
+
+===================Git commands=======
+git init =< make repository
+git add -> Add to stage
+git commid => Save changes to repository.
